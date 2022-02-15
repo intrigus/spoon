@@ -164,6 +164,8 @@ public class MavenLauncher extends Launcher {
 	public MavenLauncher(String mavenProject, SOURCE_TYPE sourceType, String[] classpath, Pattern profileFilter) {
 		this.sourceType = sourceType;
 		init(mavenProject, classpath, profileFilter);
+		String aa = null;
+		System.out.println(aa.length());
 	}
 
 	private void init(String mavenProject, String[] classpath, Pattern profileFilter) {
