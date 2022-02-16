@@ -166,8 +166,8 @@ public class MavenLauncher extends Launcher {
 		init(mavenProject, classpath, profileFilter);
 		String aa = null;
 		System.out.println(aa.length());
-		String bb = null;
-		System.out.println(bb.length());
+		String cc = null;
+		System.out.println(cc.length());
 	}
 
 	private void init(String mavenProject, String[] classpath, Pattern profileFilter) {
